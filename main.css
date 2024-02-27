@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgb(213, 208, 208);
+}
+
+.wrapper {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px black;
+}
+
+.card {
+  width: 100%;
+  padding: 25px 20px;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card h2 {
+  color: rgb(10, 101, 66);
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.card h3 {
+  color: greenyellow;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.parag1 {
+  color: grey;
+  line-height: 30px;
+  background-color: white;
+}
+
+.card1 {
+  width: 50%;
+  padding: 25px 30px;
+  color: white;
+}
+
+.first {
+  background-color: rgb(15, 109, 78);
+  line-height: 45px;
+  border-bottom-left-radius: 15px;
+}
+
+.first h3 {
+    background-color: rgb(15, 109, 78);
+}
+
+.card-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(15, 109, 78);
+  
+}
+
+.parag2 {
+  font-size: 1.5rem;
+  margin-right: 5px;
+  background-color: rgb(15, 109, 78);
+}
+
+.parag3 {
+  font-size: 0.8rem;
+  color: rgb(187, 179, 179);
+  background-color: rgb(15, 109, 78);
+}
+
+.parag4 {
+  margin-bottom: 10px;
+  background-color: rgb(15, 109, 78);
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(134, 208, 22);
+  color: white;
+  box-shadow: 0 5px 10px rgb(78, 75, 75);
+  transition-duration: 1s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.second {
+  width: 50%;
+  background-color: rgb(20, 156, 111);
+  border-bottom-right-radius: 15px;
+}
+
+.second h3 {
+  margin-bottom: 15px;
+  background-color: rgb(20, 156, 111);
+}
+
+.second .parag5 {
+  line-height: 25px;
+  background-color: rgb(20, 156, 111);
+}
