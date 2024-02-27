@@ -13,7 +13,7 @@
   margin: 50px auto;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 5px 10px black;
+  box-shadow: 0 5px 10px rgb(123, 118, 118);
 }
 
 .card {
@@ -112,4 +112,26 @@
 .second .parag5 {
   line-height: 25px;
   background-color: rgb(20, 156, 111);
+}
+
+@media(min-width: 0) and (max-width: 474.9px) {
+    .wrapper {
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1, .card2 {
+        width: 100%;
+    }
+
+    .first {
+        border-bottom-left-radius: 0;
+    }
+
+    .second {
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
 }
